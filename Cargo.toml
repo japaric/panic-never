@@ -1,0 +1,11 @@
+[package]
+authors = ["Jorge Aparicio <jorge@japaric.io>"]
+categories = ["no-std"]
+description = "This crate guarantees that your application is free of panicking branches"
+edition = "2018"
+keywords = ["panic", "panic-handler"]
+license = "MIT OR Apache-2.0"
+name = "panic-never"
+readme = "README.md"
+repository = "https://github.com/japaric/panic-never"
+version = "0.1.0"
