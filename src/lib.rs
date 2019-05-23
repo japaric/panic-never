@@ -7,6 +7,10 @@
 //! This crate and your program *must* be compiled using the release profile or your crate will
 //! always fail to link.
 //!
+//! Note: This crate is a panic handler crate; it contains a `#[panic_handler]` function. As of
+//! Rust 1.35.0 `#[panic_handler]` is a `no_std`-only feature so you won't be able to use this in
+//! programs that link to `std`.
+//!
 //! # Example
 //!
 //! ```
